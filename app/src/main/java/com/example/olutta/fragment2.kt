@@ -19,9 +19,15 @@ class fragment2 : Fragment() {
         // Inflate the layout for this fragment
         val view=inflater.inflate(R.layout.fragment_fragment2, container, false)
 
-        val button=view.findViewById<Button>(R.id.fragiin1)
+        val button=view.findViewById<Button>(R.id.fragiin21)
         button.setOnClickListener {
             Navigation.findNavController(view).navigate(R.id.action_fragment2_to_fragment1)
+        }
+        val view2=inflater.inflate(R.layout.fragment_fragment2, container, false)
+
+        val button2=view.findViewById<Button>(R.id.fragiin23)
+        button2.setOnClickListener {
+            Navigation.findNavController(view).navigate(R.id.action_fragment2_to_fragment3)
         }
 
         return view

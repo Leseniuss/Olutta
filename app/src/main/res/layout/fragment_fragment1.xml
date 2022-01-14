@@ -11,10 +11,10 @@
         android:layout_height="match_parent">
 
         <Button
-            android:id="@+id/fragiin2"
+            android:id="@+id/fragiin12"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:text="Fragiin2"
+            android:text="Fragiin12"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
@@ -26,6 +26,15 @@
             android:text="TEEESSSTIUIIII"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/fragiin2" />
+            app:layout_constraintTop_toBottomOf="@+id/fragiin12" />
+
+        <Button
+            android:id="@+id/fragiin13"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="fragiin13"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 </FrameLayout>
