@@ -9,7 +9,7 @@ import android.widget.Button
 import androidx.navigation.Navigation
 
 
-class fragment1 : Fragment() {
+class fragment3 : Fragment() {
 
 
     override fun onCreateView(
@@ -17,22 +17,21 @@ class fragment1 : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
         // Inflate the layout for this fragment
-        val view=inflater.inflate(R.layout.fragment_fragment1, container, false)
+        val view=inflater.inflate(R.layout.fragment_fragment3, container, false)
 
-        val button=view.findViewById<Button>(R.id.fragiin12)
+        val button=view.findViewById<Button>(R.id.fragiin31)
         button.setOnClickListener {
-            Navigation.findNavController(view).navigate(R.id.action_fragment1_to_fragment2)
+            Navigation.findNavController(view).navigate(R.id.action_fragment3_to_fragment1)
         }
-       // val view2=inflater.inflate(R.layout.fragment_fragment1, container, false)
+       // val view2=inflater.inflate(R.layout.fragment_fragment3, container, false)
 
-        val button2=view.findViewById<Button>(R.id.fragiin13)
+        val button2=view.findViewById<Button>(R.id.fragiin32)
         button2.setOnClickListener {
-            Navigation.findNavController(view).navigate(R.id.action_fragment1_to_fragment3)
+            Navigation.findNavController(view).navigate(R.id.action_fragment3_to_fragment2)
         }
 
         return view
     }
-
 
 
 }

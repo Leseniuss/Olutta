@@ -23,7 +23,7 @@ class fragment2 : Fragment() {
         button.setOnClickListener {
             Navigation.findNavController(view).navigate(R.id.action_fragment2_to_fragment1)
         }
-        val view2=inflater.inflate(R.layout.fragment_fragment2, container, false)
+       // val view2=inflater.inflate(R.layout.fragment_fragment2, container, false)
 
         val button2=view.findViewById<Button>(R.id.fragiin23)
         button2.setOnClickListener {
