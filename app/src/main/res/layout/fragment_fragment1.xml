@@ -25,7 +25,8 @@
             android:layout_height="wrap_content"
             android:text="fragiin13"
             app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
-            tools:layout_editor_absoluteY="67dp" />
+            app:layout_constraintTop_toBottomOf="@+id/fragiin12" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 </FrameLayout>
